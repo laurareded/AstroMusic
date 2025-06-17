@@ -24,10 +24,10 @@ namespace AstromusicApi.Data
             StartDay = 21,
             EndMonth = 4,
             EndDay = 20,
-            Description = "Intensa e cheia de atitude, dona da própria verdade e energia incansável. Quem segura? Só Beyoncé mesmo, miga!",
+            Description = "Intensa e cheia de atitude, dona da própria verdade e energia incansável. Quem segura? Só Beyoncé mesmo!",
             ThemeSong = "Don't Hurt Yourself",
             SongArtist = "Beyoncé",
-            SongLink = "https://open.spotify.com/track/0bZ8K5yx2SUQTE0n7bJoRi",
+            SongLink = "https://open.spotify.com/intl-pt/track/78eouBKVRyhbSzJwChr6QM?si=97f00cb9e32c4fd6",
             ImageUrl = ""
         },
         new ZodiacSign
@@ -38,10 +38,10 @@ namespace AstromusicApi.Data
             StartDay = 21,
             EndMonth = 5,
             EndDay = 20,
-            Description = "Apreciadora dos prazeres da vida, fiel e autêntica. Traz aquele glamour safadérrimo e a vibe luxuosa da Amy.",
+            Description = "Apreciadora dos prazeres da vida, fiel e autêntica. Traz aquele glamour e a vibe luxuosa da Amy.",
             ThemeSong = "F*** Me Pumps",
             SongArtist = "Amy Winehouse",
-            SongLink = "https://open.spotify.com/track/3CK2hZfPmW8A0nHqQxCajR",
+            SongLink = "https://open.spotify.com/intl-pt/track/6efhuc3AsgEKF0XZiEocQY?si=da0679073e524307",
             ImageUrl = ""
         },
         new ZodiacSign
@@ -55,7 +55,7 @@ namespace AstromusicApi.Data
             Description = "Mil facetas, 1000 opiniões por segundo. Rápida no papo, adora um caos, rainha do reboliço igual Nicki.",
             ThemeSong = "Roman's Revenge",
             SongArtist = "Nicki Minaj",
-            SongLink = "https://open.spotify.com/track/4F7A0DXBrmUAkp32uenhQk",
+            SongLink = "https://open.spotify.com/intl-pt/track/0eUzRaG60gimqQJ02oSUnH?si=19bd8d9747d643ac",
             ImageUrl = ""
         },
         new ZodiacSign
@@ -69,7 +69,7 @@ namespace AstromusicApi.Data
             Description = "Emo delicinha, sentimental, entrega o coração de bandeja. Uma música doce e sincera da Kehlani é o mood.",
             ThemeSong = "Honey",
             SongArtist = "Kehlani",
-            SongLink = "https://open.spotify.com/track/5V5PTEzOeF8J4vH05m0Qel",
+            SongLink = "https://open.spotify.com/intl-pt/track/5QTdOvIF2ehBMZpSIIGzIo?si=ef69bb0a7ec9438b",
             ImageUrl = ""
         },
         new ZodiacSign
@@ -83,7 +83,7 @@ namespace AstromusicApi.Data
             Description = "Rainha do palco, centro das atenções. Entrega o *twerk*, entrega o poder, igual Megan feat. Queen B!",
             ThemeSong = "Savage Remix",
             SongArtist = "Megan Thee Stallion feat. Beyoncé",
-            SongLink = "https://open.spotify.com/track/3Remixlink",
+            SongLink = "https://open.spotify.com/intl-pt/track/5v4GgrXPMghOnBBLmveLac?si=d1ebcb9c03e54f12",
             ImageUrl = ""
         },
         new ZodiacSign
@@ -97,7 +97,7 @@ namespace AstromusicApi.Data
             Description = "Perfeccionista, discreta, organizada, mas super envolvente, com um R&B viciante tipo Summer Walker.",
             ThemeSong = "Body",
             SongArtist = "Summer Walker",
-            SongLink = "https://open.spotify.com/track/5hQSMw0tYhfbWf0WgZqkDQ",
+            SongLink = "https://open.spotify.com/intl-pt/track/7vxLj7MREliG5i5vSnqSVr?si=bd7e8c7212a743f4",
             ImageUrl = ""
         },
         new ZodiacSign
@@ -111,7 +111,7 @@ namespace AstromusicApi.Data
             Description = "Estilosa, charmosa, busca equilíbrio até no batom. Música deep da Rihanna, pra dar close certo.",
             ThemeSong = "Consideration",
             SongArtist = "Rihanna feat. SZA",
-            SongLink = "https://open.spotify.com/track/0ikz6tENMONtK6qGkOrU3c",
+            SongLink = "https://open.spotify.com/intl-pt/track/6t90Z9XkdsHD8xMxro6KRP?si=f0fdfda75b194acc",
             ImageUrl = ""
         },
         new ZodiacSign
@@ -125,7 +125,7 @@ namespace AstromusicApi.Data
             Description = "Intensa, misteriosa, provocante. O dark da Lana é seu habitat natural.",
             ThemeSong = "Gods & Monsters",
             SongArtist = "Lana Del Rey",
-            SongLink = "https://open.spotify.com/track/6jG2YzhxptolDzLHTGLt7S",
+            SongLink = "https://open.spotify.com/intl-pt/track/4uhSo9cVBVpdDCNxf4MBaP?si=434e22b75841497b",
             ImageUrl = ""
         },
         new ZodiacSign
@@ -139,7 +139,7 @@ namespace AstromusicApi.Data
             Description = "Livre, criativa, irreverente. Melanie entrega a vibe lúdica, diferente e nada óbvia.",
             ThemeSong = "Strawberry Shortcake",
             SongArtist = "Melanie Martinez",
-            SongLink = "https://open.spotify.com/track/1gVgkEC0AHTy9y5xrwtO3A",
+            SongLink = "https://open.spotify.com/intl-pt/track/57OBlxZRcRyHFdlXlsHP7G?si=6b9b4a0844c44e33",
             ImageUrl = ""
         },
         new ZodiacSign
@@ -153,7 +153,7 @@ namespace AstromusicApi.Data
             Description = "Ambiciosa, poderosa, não dá ponto sem nó. A Beyoncé de “Upgrade U” é sua mentora.",
             ThemeSong = "Upgrade U",
             SongArtist = "Beyoncé feat. Jay-Z",
-            SongLink = "https://open.spotify.com/track/6O8A4hZ9VgoWvNEmkbD9g0",
+            SongLink = "https://open.spotify.com/intl-pt/track/0GLUBbX4daHJkT3RQHEOia?si=9af44149f39b4158",
             ImageUrl = ""
         },
         new ZodiacSign
@@ -167,7 +167,7 @@ namespace AstromusicApi.Data
             Description = "Visionária, única, sempre com um papo profundo. Jhené Aiko com B.S., pra quem pensa fora da caixa.",
             ThemeSong = "B.S.",
             SongArtist = "Jhené Aiko feat. H.E.R.",
-            SongLink = "https://open.spotify.com/track/2Q4pFzK4qvU3hZLhM4nY5z",
+            SongLink = "https://open.spotify.com/intl-pt/track/63wx9vdskaXbYxyDx4oJCZ?si=5e0b48f7a9ea4e81",
             ImageUrl = ""
         },
         new ZodiacSign
@@ -181,7 +181,7 @@ namespace AstromusicApi.Data
             Description = "Sensível, artista, vive no mundo dos sonhos. Lana entrega a atmosfera onírica perfeita.",
             ThemeSong = "The Grants",
             SongArtist = "Lana Del Rey",
-            SongLink = "https://open.spotify.com/track/1vZCtb8pAz9VLtMoA5pBWi",
+            SongLink = "https://open.spotify.com/intl-pt/track/3KbOflJ5JqHWtmco4PiO3h?si=4616e258e00e46b5",
             ImageUrl = ""
         }
     );

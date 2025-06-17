@@ -24,19 +24,19 @@ namespace AstromusicApi.Controllers
             var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Email == request.Email);
             if (existingUser != null)
             {
-                return BadRequest("E-mail já cadastrado, bicha!");
+                return BadRequest("E-mail já cadastrado");
             }
 
 
             var birth = request.BirthDate;
             var zodiacSign = await _context.ZodiacSigns
                 .FirstOrDefaultAsync(sign =>
-                    (sign.StartMonth < sign.EndMonth && // signo "normal" (ex: Áries)
+                    (sign.StartMonth < sign.EndMonth && 
                         ((birth.Month == sign.StartMonth && birth.Day >= sign.StartDay) ||
                          (birth.Month == sign.EndMonth && birth.Day <= sign.EndDay) ||
                          (birth.Month > sign.StartMonth && birth.Month < sign.EndMonth)))
                     ||
-                    (sign.StartMonth > sign.EndMonth && // signo que vira o ano (ex: Capricórnio)
+                    (sign.StartMonth > sign.EndMonth && 
                         ((birth.Month == sign.StartMonth && birth.Day >= sign.StartDay) ||
                          (birth.Month == sign.EndMonth && birth.Day <= sign.EndDay) ||
                          (birth.Month > sign.StartMonth || birth.Month < sign.EndMonth)))
@@ -44,7 +44,7 @@ namespace AstromusicApi.Controllers
 
             if (zodiacSign == null)
             {
-                return BadRequest("Não foi possível determinar o signo. Checa se a data tá certa, mana!");
+                return BadRequest("Não foi possível determinar o signo.");
             }
 
 
