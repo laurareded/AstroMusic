@@ -1,0 +1,6 @@
+@AstromusicApi_HostAddress = http://localhost:5029
+
+GET {{AstromusicApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
